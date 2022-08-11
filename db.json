@@ -1,0 +1,36 @@
+{
+  "clientes": [
+    {
+      "nombre": "Juan Profe",
+      "empresa": "empresa 12",
+      "email": "correo@correo.com",
+      "telefono": "53745738",
+      "notas": "",
+      "id": 1
+    },
+    {
+      "nombre": "Edwin ID 2 Act",
+      "empresa": "edwinnm",
+      "email": "correo@correo.com",
+      "telefono": "37486734896",
+      "notas": "Notas del cliente",
+      "id": 2
+    },
+    {
+      "nombre": "Edwin con notas",
+      "empresa": "Nueva empresa",
+      "email": "empresa@empresa.com",
+      "telefono": "78573",
+      "notas": "Notas del cliente",
+      "id": 3
+    },
+    {
+      "nombre": "Edwin 1",
+      "empresa": "edwindev",
+      "email": "correo@correo.com",
+      "telefono": "323212132",
+      "notas": "Nuevas Notas",
+      "id": 4
+    }
+  ]
+}
