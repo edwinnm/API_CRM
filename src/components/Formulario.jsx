@@ -25,10 +25,10 @@ const Formulario = ({cliente}) => {
         try{
             let url, method = ''
             if(cliente.id){
-                url = `http://localhost:4000/clientes/${cliente.id}`
+                url = `${import.meta.env.VITE_API_URL}/${cliente.id}`
                 method = 'PUT'
             }else{
-                url = 'http://localhost:4000/clientes'
+                url = import.meta.env.VITE_API_URL
                 method = 'POST'
             }
   
