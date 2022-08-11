@@ -11,7 +11,7 @@ import VerCliente from './pages/VerCliente'
 function App() {
   
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/API_CRM">
       <Routes>
         <Route path='/clientes' element={<Layout/>}>
           <Route index element={<Inicio/>}/>
